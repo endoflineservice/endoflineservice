@@ -1,97 +1,93 @@
 <div align="center">
 
-<pre>
- ██████╗ ██████╗ ██████╗ ██████╗ ██╗   ██╗
-██╔════╝██╔═══██╗██╔══██╗██╔══██╗╚██╗ ██╔╝
-██║     ██║   ██║██████╔╝██████╔╝ ╚████╔╝
-██║     ██║   ██║██╔══██╗██╔══██╗  ╚██╔╝
-╚██████╗╚██████╔╝██║  ██║██║  ██║   ██║
- ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝
-</pre>
+# Corry Holt
 
 **Android & Jellyfin specialist**
 
-I build native Android apps and self-hosted media tooling that own their data.<br/>
-Kotlin · Jetpack Compose · Jellyfin API · Decky · self-hosted first
+I build native Android apps and self-hosted media tooling. Offline-first by default,
+no telemetry, no subscriptions — software that keeps your data on your own hardware.
 
-<a href="https://github.com/endoflineservice?tab=repositories"><img alt="repos" src="https://img.shields.io/badge/repos-23-0d1117?style=flat-square&logo=github&logoColor=00ff9d"></a>
-<a href="mailto:corryrholt@gmail.com"><img alt="email" src="https://img.shields.io/badge/email-0d1117?style=flat-square&logo=gmail&logoColor=00ff9d"></a>
-<img alt="status" src="https://img.shields.io/badge/status-building-0d1117?style=flat-square&logo=statuspage&logoColor=00ff9d">
+<a href="https://github.com/endoflineservice?tab=repositories">Repositories</a> &nbsp;·&nbsp;
+<a href="https://play.google.com/store/apps/details?id=corryholt.scanboard">ScanBoard on Google Play</a> &nbsp;·&nbsp;
+<a href="mailto:corryrholt@gmail.com">Email</a>
 
 </div>
 
-```console
-corry@github:~$ whoami
-Corry Holt — Android & Jellyfin specialist
-
-corry@github:~$ cat stack.txt
-kotlin   jetpack-compose   material-you   coroutines   room
-jellyfin-api   decky-loader   typescript   c#   python
-
-corry@github:~$ ls ~/work
-jellyfin-music/   voiddeck/   scanboard/   jellyshelf/   gamebridge/
-```
-
 ---
 
-## ▶ featured
+## Selected work
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="42%" valign="middle">
+<a href="https://github.com/endoflineservice/jellyfin-music"><img src="https://raw.githubusercontent.com/endoflineservice/jellyfin-music/main/docs/screenshots/now-playing-turntable.png" width="300" alt="jellyfin-music now playing screen with a turntable"></a>
+</td>
+<td width="58%" valign="middle">
 
 ### [jellyfin-music](https://github.com/endoflineservice/jellyfin-music)
 
-A FOSS native Android music player for **Jellyfin**. Material You, a turntable-style player, and home-screen widgets — no ads, no tracking, your server.
+A native Android music player for Jellyfin. Material You theming, fast library browsing, home-screen widgets, and a turntable player you can actually scratch to seek. Your server is the only backend.
 
-`Kotlin` `Compose` `Jellyfin API`
-
-</td>
-<td width="33%" valign="top">
-
-### [VoidDeck](https://github.com/endoflineservice/VoidDeck)
-
-A **Steam Deck** interface made of dots, light and void. A Decky plugin that restyles all of Game Mode — black glass, dot-matrix type, controller-first.
-
-`TypeScript` `Decky` `CSS`
-
-</td>
-<td width="33%" valign="top">
-
-### [ScanBoard](https://endoflineservice.github.io/ScanBoard-Website/)
-
-An Android **keyboard** built for scanning and barcode entry — fast capture without leaving the field you're typing in.
-
-`Kotlin` `Android IME`
+<sub>Kotlin · Jetpack Compose · Jellyfin API</sub>
 
 </td>
 </tr>
 </table>
 
-## ⚡ also building
+<table>
+<tr>
+<td width="58%" valign="middle">
 
-- **[JellyShelf](https://github.com/endoflineservice/JellyShelf)** — browse a Jellyfin library like a physical VHS/DVD/Blu-ray shelf.
-- **[gamebridge](https://github.com/endoflineservice/gamebridge)** — install the Windows games you own on Linux and SteamOS through UMU.
-- **[Deskagotchi](https://github.com/endoflineservice/Deskagotchi)** — a tiny pixel pet that lives on your Windows desktop.
+### [VoidDeck](https://github.com/endoflineservice/VoidDeck)
+
+A Decky Loader plugin that restyles the whole Steam Deck interface: a custom home screen, monochrome covers that light up under the cursor, dot-matrix type, and dot meters for battery and volume. It changes how Steam looks, never how it works.
+
+<sub>TypeScript · Decky Loader · CSS</sub>
+
+</td>
+<td width="42%" valign="middle">
+<a href="https://github.com/endoflineservice/VoidDeck"><img src="https://raw.githubusercontent.com/endoflineservice/VoidDeck/main/docs/screenshots/home.png" width="420" alt="VoidDeck home screen on a Steam Deck"></a>
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="42%" valign="middle">
+<a href="https://play.google.com/store/apps/details?id=corryholt.scanboard"><img src="https://raw.githubusercontent.com/endoflineservice/ScanBoard-Website/main/assets/shot2.png" width="260" alt="ScanBoard scanning into a text field"></a>
+</td>
+<td width="58%" valign="middle">
+
+### [ScanBoard](https://play.google.com/store/apps/details?id=corryholt.scanboard)
+
+A keyboard with a built-in QR and barcode scanner, built for warehouse floors. A scan types straight into the field your cursor is already in, so there is no app switching and no clipboard. The slide-to-zoom read window picks up labels from across the aisle.
+
+<sub>Android · Kotlin · Google Play</sub>
+
+</td>
+</tr>
+</table>
+
+---
+
+## More of what I've built
+
+- **[gamebridge](https://github.com/endoflineservice/gamebridge)** — install the Windows games you already own on Linux, Bazzite and SteamOS through UMU.
+- **JellyShelf** — browse a Jellyfin library like a physical shelf of VHS, DVD and Blu-ray cases.
+- **[Deskagotchi](https://github.com/endoflineservice/Deskagotchi)** — a Tamagotchi-style pixel pet that floats on your Windows desktop.
 - **[SpookyFin](https://github.com/endoflineservice/SpookyFin---Material-Theme-for-JellyFin)** — a spooky-cute Material You theme for Jellyfin.
 
-## ⌁ principles
+## How I work
 
-```console
-corry@github:~$ cat principles.txt
-1. local-first    your data lives on your hardware, not someone else's
-2. native         real platform APIs > webviews in a trench coat
-3. quiet          no telemetry, no ads, no dark patterns
-4. finished       polish is a feature, not a phase-two ticket
-```
+Most of what I build is meant to run on hardware you own. I like software that works offline, feels native to the platform, and stays quiet — no analytics, no ads, no subscription for a feature that should just be local. I would rather ship one thing that is finished than five that are nearly there.
 
 ---
 
 <div align="center">
 
-**Open to talking about Android, Jellyfin, or theming something that shouldn't be themeable.**
+**Currently building JellyShelf and more Jellyfin tooling.**
+Happy to talk Android, Jellyfin, or theming something that was never meant to be themed.
 
-<a href="mailto:corryrholt@gmail.com"><img alt="mail" src="https://img.shields.io/badge/corryrholt@gmail.com-0d1117?style=flat-square&logo=gmail&logoColor=00ff9d"></a>
-<a href="https://github.com/endoflineservice"><img alt="github" src="https://img.shields.io/badge/@endoflineservice-0d1117?style=flat-square&logo=github&logoColor=00ff9d"></a>
+<a href="mailto:corryrholt@gmail.com">corryrholt@gmail.com</a>
 
 </div>
